@@ -36,14 +36,14 @@
                 <aside class="w-1/5">
                     <section class="mb-10">
                         <h4 class="uppercase my-8">
-                            <router-link class=""  active-class="lesson-color font-bold" to="/lessons"> lessons </router-link>
+                            <router-link class=""  active-class="text-teal-100 font-bold" to="/lessons"> lessons </router-link>
                         </h4>
                     
                     </section>
                     
                     <section>
                         <h5 class="uppercase my-10">
-                            <router-link class="" active-class="quiz-color font-bold"  to="/quizzes"> quizes </router-link>
+                            <router-link class="" active-class="text-yellow-100 font-bold"  to="/quizzes"> quizes </router-link>
                         </h5>
                         
                     </section>
@@ -51,7 +51,7 @@
                     
                     <section>
                     <h5 class="uppercase my-10">
-                        <router-link class="" active-class="text-purple-500 font-bold"  to="/create"> Create </router-link>
+                        <router-link class="" active-class=" text-purple-500 font-bold"  to="/create"> Create </router-link>
                     </h5>
 
                     </section>

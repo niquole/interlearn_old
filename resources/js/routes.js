@@ -3,6 +3,8 @@ import Login from './components/Login';
 import Lessons from './components/Lessons';
 import Quizzes from './components/Quizzes';
 import Create from './components/Create';
+import NotFound from './components/NotFound';
+
 
 
 
@@ -12,6 +14,14 @@ export default {
     // linkActiveClass: "font-bold",
 
     routes: [
+        {
+            
+            path: '*',
+
+            component: NotFound
+
+        },
+
         {
             
             path: '/',
