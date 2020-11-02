@@ -24,7 +24,7 @@
 </head>
 <body>
     <div id="app">
-        <div class="container mx-10">
+        <div class="container px-10">
             <header class="py-6 mb-8">
                     <router-link to="/">
                         <img alt="InterLearn" src="/images/logo.png" style="width: 200px;">
@@ -36,14 +36,14 @@
                 <aside class="w-1/5">
                     <section class="mb-10">
                         <h4 class="uppercase my-8">
-                            <router-link class=""  active-class="text-teal-100 font-bold" to="/lessons"> lessons </router-link>
+                            <router-link class=""  active-class="font-bold" to="/lessons"> lessons </router-link>
                         </h4>
                     
                     </section>
                     
                     <section>
                         <h5 class="uppercase my-10">
-                            <router-link class="" active-class="text-yellow-100 font-bold"  to="/quizzes"> quizes </router-link>
+                            <router-link class="" active-class="font-bold"  to="/quizzes"> quizes </router-link>
                         </h5>
                         
                     </section>
@@ -57,7 +57,7 @@
                     </section>
                 </aside>
                 
-                <div class="primary flex-1">
+                <div class="flex-none items-center sm:flex-1 md:flex-auto lg:flex-initial xl:flex-1">
                     <router-view></router-view>
                 </div>
             </main>
