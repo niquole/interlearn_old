@@ -51,7 +51,7 @@
                     
                     <section>
                     <h5 class="uppercase my-10">
-                        <router-link class="" active-class=" text-purple-500 font-bold"  to="/create"> Create </router-link>
+                        <router-link class="" active-class=" text-purple-500 font-bold"  to="/login"> Create </router-link>
                     </h5>
 
                     </section>

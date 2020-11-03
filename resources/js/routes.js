@@ -1,5 +1,6 @@
 import Home from './components/Home';
 import Login from './components/Login';
+import SignUp from './components/SignUp';
 import Lessons from './components/Lessons';
 import Quizzes from './components/Quizzes';
 import Create from './components/Create';
@@ -35,6 +36,14 @@ export default {
             path: '/login',
 
             component: Login
+            
+        },
+
+        {
+            
+            path: '/signup',
+
+            component: SignUp
             
         },
 
