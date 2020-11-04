@@ -5,9 +5,9 @@
     </h1>
 <div class="choose">
 
-  <router-link class="m-10 text-xl"  active-class="font-bold text-2xl" to="/create-lesson" >Lesson</router-link>
+  <router-link class="m-10 text-xl"  active-class="font-bold text-2xl text-green-500" to="/create-lesson" >Lesson</router-link>
 
-  <router-link class=" text-xl"   active-class="font-bold text-2xl" to="/create-quiz">Quiz</router-link>
+  <router-link class=" text-xl"   active-class="font-bold text-2xl " to="/create-quiz">Quiz</router-link>
 </div>
 
 
@@ -153,11 +153,17 @@
   }
 
   .choose {
-    margin-left: 75%;
+    margin-left: 70%;
     margin-bottom: 5%;
   }
 
   .line {
     width: 138%;
   }
+
+  .text-green-500 {
+    color: #599FA5;
+  }
+
+
 </style>

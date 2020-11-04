@@ -5,6 +5,9 @@ import Lessons from './components/Lessons';
 import Quizzes from './components/Quizzes';
 import CreateLesson from './components/CreateLesson';
 import CreateQuiz from './components/CreateQuiz';
+import SingleLesson from  './components/SingleLesson';
+import SingleQuiz from  './components/SingleQuiz';
+
 import NotFound from './components/NotFound';
 
 
@@ -77,6 +80,22 @@ export default {
             path: '/create-quiz',
 
             component: CreateQuiz
+            
+        },
+
+        {
+            
+            path: '/single-lesson',
+
+            component: SingleLesson
+            
+        },
+
+        {
+            
+            path: '/single-quiz',
+
+            component: SingleQuiz
             
         }
     ]

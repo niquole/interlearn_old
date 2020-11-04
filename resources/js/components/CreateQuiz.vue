@@ -7,7 +7,7 @@
             
             <router-link class="m-10 text-xl"  active-class="font-bold text-2xl" to="/create-lesson" >Lesson</router-link>
             
-            <router-link class=" text-xl"   active-class="font-bold text-2xl" to="/create-quiz">Quiz</router-link>
+            <router-link class=" text-xl"   active-class="font-bold text-2xl text-yellow-500" to="/create-quiz">Quiz</router-link>
         </div>
         <div>
             <div class="md:grid md:grid-cols-3 md:gap-6">
@@ -190,5 +190,7 @@
 </script>
 
 <style>
-    
+      .text-yellow-500 {
+    color: #FCBF49;
+  }
 </style>
