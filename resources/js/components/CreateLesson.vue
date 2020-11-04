@@ -5,16 +5,12 @@
     </h1>
 <div class="choose">
 
-  <router-link class="m-10" to="/" >Lesson</router-link>
+  <router-link class="m-10 text-xl"  active-class="font-bold text-2xl" to="/create-lesson" >Lesson</router-link>
 
-  <router-link to="/">Quiz</router-link>
+  <router-link class=" text-xl"   active-class="font-bold text-2xl" to="/create-quiz">Quiz</router-link>
 </div>
 
 
-      <!--
-        Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
-        Read the documentation to get started: https://tailwindui.com/documentation
-      -->
       <div>
         <div class="md:grid md:grid-cols-3 md:gap-6">
           <div class="md:col-span-1">
@@ -61,7 +57,11 @@
         </div>
       </div>
       
-      
+              <div class="hidden sm:block">
+            <div class="py-5 line">
+                <div class="border-t border-gray-200"></div>
+            </div>
+        </div>
         <!-- //ADD A PAGE -->
         <div>
           <div class="md:grid md:grid-cols-3 md:gap-6">
@@ -75,7 +75,7 @@
             <div class="mt-1 md:mt-0 md:col-span-2">
               <form action="#" method="POST" class="form-size">
                 <div class="shadow sm:rounded-md sm:overflow-hidden">
-                  <div class="mt-5 px-4 py-5 bg-white sm:p-6 rounded-md">
+                  <div class=" px-4 py-5 bg-white sm:p-6 rounded-md">
                     <div class="grid grid-cols-3 gap-6">
                       <div class="col-span-3 sm:col-span-2">
                         <label for="company_website" class="block text-sm font-medium leading-5 text-gray-700">
@@ -134,7 +134,7 @@
           </div>
         </div>
     </div>
-  </div>
+
   
 </template>
 
@@ -142,7 +142,7 @@
   export default {};
 </script>
 
-<style lang="css" scoped>
+<style lang="css">
   .form-size {
     margin-left: 5%;
     width: 50vw;
@@ -155,5 +155,9 @@
   .choose {
     margin-left: 75%;
     margin-bottom: 5%;
+  }
+
+  .line {
+    width: 138%;
   }
 </style>
