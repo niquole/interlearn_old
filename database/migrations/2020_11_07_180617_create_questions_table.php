@@ -16,8 +16,8 @@ class CreateQuestionsTable extends Migration
         Schema::create('questions', function (Blueprint $table) {
             $table->id();
             $table->string('question');
-            // $table->integer('quizzes_id')->unsigned();
-            // $table->foreign('quizzes_id')->references('id')->on('quizzes');
+            $table->integer('quiz_id')->unsigned()->index();
+            $table->integer('quizzes_id')->unsigned();
             $table->timestamps();
         });
     }
