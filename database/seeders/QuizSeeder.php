@@ -16,7 +16,7 @@ class QuizSeeder extends Seeder
     public function run()
     {
         Quiz::factory()
-        ->times(20)
+        ->times(80)
         ->create();
     }
 }

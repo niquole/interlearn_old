@@ -2,9 +2,10 @@
 
 namespace Database\Seeders;
 
+use App\Models\Option;
 use Illuminate\Database\Seeder;
 
-class OptionTableSeeder extends Seeder
+class OptionSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,6 +14,8 @@ class OptionTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        Option::factory()
+        ->times(100)
+        ->create();
     }
 }

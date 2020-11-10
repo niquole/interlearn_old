@@ -2,9 +2,10 @@
 
 namespace Database\Seeders;
 
+use App\Models\Answer;
 use Illuminate\Database\Seeder;
 
-class AnswerTableSeeder extends Seeder
+class AnswerSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,6 +14,8 @@ class AnswerTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        Answer::factory()
+        ->times(20)
+        ->create();
     }
 }

@@ -16,7 +16,11 @@ class DatabaseSeeder extends Seeder
     {
        $this->call ([
         UserSeeder::class,
-        QuizSeeder::class
+        QuizSeeder::class,
+        QuestionSeeder::class,
+        OptionSeeder::class,
+        AnswerSeeder::class
+
        ]);
 
         // \App\Models\User::factory(10)->create();
